@@ -7,6 +7,7 @@ if (NOT PICO_PROGRAM_MAIN_ENTRY)
 	set(BOOT_WORKAROUND OFF)
 
 	# Default output data pin for the non-SPI LED strips (only for sk6812/ws2812b)
+ 	# This is the pin for rp2040 LED channel 0
 	set(OUTPUT_DATA_PIN 16)
 
 	# Default output data/clocks pin for the SPI LED strips (only for apa102, not for sk6812/ws2812b)
